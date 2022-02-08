@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fuzzy+Bubbles&family=Krona+One&family=Merriweather+Sans:wght@300&family=Press+Start+2P&family=Tajawal:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+nav {
+  height: 90px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-div {
+  height: 85px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 85px;
+}
+
+h2 {
+  margin-left: 1rem;
+  font-weight: 100;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 80px;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 3rem;
+}
+
+button {
+  width: 150px;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(175, 145, 11);
+}
+
+#home {
+  color: rgb(175, 145, 11);
+}
+/* make page displayed highlinted on bookmarks bar */
